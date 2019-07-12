@@ -35,7 +35,7 @@ contains ~90k papers.
 
 The files are in gzipped parquet format, and are located here
 
-https://drive.google.com/open?id=1cg_7XMbWYYNOE5DSw2d1oHOCsJkL-InO
+https://drive.google.com/open?id=1CB7ecqdOD4-mD4_Ti-7VVCJzCzUKdeBi
 
 ### Paper Section Summaries Using Structured Abstracts. 
 
