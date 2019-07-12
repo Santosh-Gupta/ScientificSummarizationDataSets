@@ -50,7 +50,7 @@ I created two datasets with a similar methodology. The differences in our method
 -Gidiotis/Tsoumakas used 712,911 PubMed Central. I used ~4.3 million papers from the Sematic Scholar corpus in one dataset, and 3944 papers from 
 ArXiv in the other dataset. 
 
--Gidiotis/Tsoumakas was able to use the tags in the papers XML to pair the paper sections with the abstract sections. I used AllenAI's Science Parse 
+-Gidiotis/Tsoumakas was able to use the tags in the papers' XML to pair the paper sections with the abstract sections. I used AllenAI's Science Parse 
 [https://github.com/allenai/science-parse] to split each paper into it's individual sections, and then used the section headers to locate the paper section for 
 each abstract section. 
 
