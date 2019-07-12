@@ -59,6 +59,9 @@ each abstract section.
 of the data, sections with tags/headers containing 'experimental', 'experiments', 'experiment' corresponded to papers containing the tags/headers 
 'methods', ' methods', 'method', 'techniques', and 'methodology', so that's how I grouped them. 
 
+-I removed all digits and special characters from each section, since I am more focused on conceptual summarization rather than factial summarization
+(I don't have enough cloud space to host the unfiltered datasets)
+
 The ArXiv sectional summarization dataset contains 3944 papers and 6229 total datapoints, , in gzipped parquet files. It is available here: 
 
 https://drive.google.com/open?id=1cg_7XMbWYYNOE5DSw2d1oHOCsJkL-InO
