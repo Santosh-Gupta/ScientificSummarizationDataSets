@@ -44,7 +44,7 @@ https://drive.google.com/open?id=1CB7ecqdOD4-mD4_Ti-7VVCJzCzUKdeBi
 
 ### Paper Section Summaries Using Structured Abstracts. 
 
-The following datasets follow a similar methodolgy described in Structured Summarization of Academic Publications by Alexios Gidiotis, Grigorios Tsoumakas 
+The following datasets follow a similar methodology described in Structured Summarization of Academic Publications by Alexios Gidiotis, Grigorios Tsoumakas 
 [ https://arxiv.org/abs/1905.07695 ].
 
 Certain papers have abstracts in a structured format; ie a paper abstract may contain a seperate section for the background, methods, results, conclusion, etc. 
