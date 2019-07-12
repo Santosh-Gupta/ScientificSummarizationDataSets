@@ -76,8 +76,7 @@ the structured abstract format.
 
 ------
 
-Citing
-This is a preferred citation style:
+If citing this work, this is a preferred citation style:
 
     @article{
     Santosh-Gupta/ScientificSummarizationDataSets,
