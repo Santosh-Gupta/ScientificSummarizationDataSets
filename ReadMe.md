@@ -1,5 +1,5 @@
 Here are several datasets for Scientific Summarization. All the datasets listed below have all digits and special characters filtered out, since I am more 
-focused on conceptional summarization rather than factual summarization. 
+focused on conceptual summarization rather than factual summarization. 
 
 ### Motivation
 
