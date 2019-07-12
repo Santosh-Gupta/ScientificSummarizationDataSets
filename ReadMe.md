@@ -76,20 +76,13 @@ the structured abstract format.
 Citing
 This is a preferred citation style:
 
-@article{
-
+    @article{
     Santosh-Gupta/ScientificSummarizationDataSets,
-
     author = {Gupta, Santosh},
-    
     title = {Santosh-Gupta/ScientificSummarizationDataSets},
-    
     year = {2019},
-    
     publisher = {Self published by Santosh Gupta},
-    
     howpublished = {\url{https://github.com/Santosh-Gupta/ScientificSummarizationDataSets}},
-    
-}
+    }
 
 
