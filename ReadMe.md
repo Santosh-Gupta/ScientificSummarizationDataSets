@@ -19,17 +19,13 @@ contains papers from a variety of fields.
 
 The dataset contains 5861443 datapoints. The dataset is availible in two forms. 
 
-This is a zip file containing 12 parquet files
+This is a zip file containing 12 parquet files; it's ~2.5 gb zipped, ~6 gigs unzipped
 
 https://drive.google.com/open?id=1WEdf-_au3vg2EzmWhawmW9xsYaHAE7iV
 
-it's ~2.5 gb zipped, ~6 gigs unzipped
-
-This is the sqlite database version, 1 file
+This is the sqlite database version, 1 file; it's 2.5 gb zipped, 7.5 gb unzipped
 
 https://drive.google.com/open?id=1IhIaBD98BEseteAUi1S_f_SfIaUI8V4D
-
-it's 2.5 gb zipped, 7.5 gb unzipped
 
 ### Title Abstracts from ArXiv
 
