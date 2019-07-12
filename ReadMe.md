@@ -17,7 +17,7 @@ This dataset contains title/abstract pairs from the Semantic Scholar Corpus [  h
 in the biomedical domain, since title/abstract datasets for the biomedical domain already exists. Though many papers from that domain still exist, the dataset 
 contains papers from a variety of fields. 
 
-The dataset contains 5861443 datapoints. The dataset is availible in two forms. 
+The dataset contains 5.8 million datapoints. The dataset is availible in two forms. 
 
 This is a zip file containing 12 parquet files; it's ~2.5 gb zipped, ~6 gigs unzipped
 
