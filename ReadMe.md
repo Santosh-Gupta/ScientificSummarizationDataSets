@@ -7,7 +7,12 @@ Most scientific summarization datasets are from the biomedical domain, but I am 
 datasets for this. I have decided to share the datasets I have made along the way. 
 
 Also, most scientific summarization datasets contain title/abstract pairs, where as I am more interested in summarizing each section of a research paper. 
-Thanks to a novel method discovered by Alexios Gidiotis, Grigorios Tsoumakas [https://arxiv.org/abs/1905.07695] , I was able to create datesets for this type of summarization 
+Thanks to a novel method discovered by Alexios Gidiotis, Grigorios Tsoumakas [https://arxiv.org/abs/1905.07695] , I was able to create datesets for this type of summarization. 
+
+<p align="center">
+  <img src="https://i.imgur.com/QYDNT98.png">
+</p>
+
 
 ------
 
