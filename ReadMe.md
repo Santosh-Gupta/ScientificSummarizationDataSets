@@ -6,7 +6,7 @@ focused on conceptional summarization rather than factual summarization.
 Most scientific summarization datasets are from the biomedical domain, but I am currently focuced on summarization of CS concepts, so I needed to make new
 datasets for this. I have decided to share the datasets I have made along the way. 
 
-Also, most scientific summarization datasets contain title/abstract pairs, where as I am more interested in summarization each section of a research paper. 
+Also, most scientific summarization datasets contain title/abstract pairs, where as I am more interested in summarizing each section of a research paper. 
 Thanks to a novel method discovered by Alexios Gidiotis, Grigorios Tsoumakas [https://arxiv.org/abs/1905.07695] , I was able to create datesets for this type of summarization 
 
 ------
