@@ -78,6 +78,22 @@ While the Semantic Scholar has papers from a variety of domains, this dataset co
 two reasions: 1) There are more papers in the biomedical domain than any other domain 2) The Biomedical domain is more likely to have papers which use
 the structured abstract format. 
 
+---------
+
+For the parquet files, you can open them simply using pandas. No need to unzip the gzipped files. 
+
+```
+import pandas as pd
+df = pd.read_parquet( file.parquet.gz )
+```
+
+If there are any issues, you may need to install and use fastparquet. 
+
+```
+!pip install fastparquet
+df = pd.read_parquet( file.parquet.gz , engine = 'fastparquet') 
+```
+
 ------
 
 If citing this work, this is a preferred citation style:
