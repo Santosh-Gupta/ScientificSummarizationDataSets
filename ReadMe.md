@@ -132,7 +132,7 @@ Recommended Paper: https://arxiv.org/abs/1906.00138
 
 Original Repo: https://github.com/tensorflow/tensor2tensor
 
-Forked Repo: 
+Forked Repo: https://github.com/Santosh-Gupta/tensor2tensor
 
 Colab Notebook: https://colab.research.google.com/drive/1JEfZ2cCJc8Dz_LQMS9_rGgtMgecfXJDG
 
