@@ -1,6 +1,10 @@
 Here are several datasets for Scientific Summarization. All the datasets listed below have all digits and special characters filtered out, since I am more 
 focused on conceptual summarization rather than factual summarization. 
 
+Update 7-20-19
+
+I have forked several Github repos to set them up to train on the data, and then created accompanying Colab notebook which shows how to use the repos to process and training on the data. For abstractive summarization, I have selected summarization repos which use the Transformers architecture, and the Pointer-Generator architecture. And for extractive summarization, I have selected a Bert-based architecture. They are all listed at the bottom. 
+
 ### Motivation
 
 Most scientific summarization datasets are from the biomedical domain, but I am currently focuced on summarization of CS concepts, so I needed to make new
@@ -95,6 +99,36 @@ df = pd.read_parquet( file.parquet.gz , engine = 'fastparquet')
 ```
 
 ------
+
+Update 7-20-19
+
+I have forked several Github repos to set them up to train on the data, and then created accompanying Colab notebook which shows how to use the repos to process and training on the data. For abstractive summarization, I have selected summarization repos which use the Transformers architecture, and the Pointer-Generator architecture. And for extractive summarization, I have selected a Bert-based architecture. 
+
+## Pointer Generator 
+
+Paper: https://arxiv.org/abs/1704.04368
+Orignal Repos: https://github.com/abisee/pointer-generator https://github.com/abisee/cnn-dailymail https://github.com/f0k/pointer-generator.git
+Forked Repo: https://github.com/Santosh-Gupta/cnn-dailymail
+Colab Notebook: https://colab.research.google.com/drive/14-hIiDmUE_qmVK0UHVTjyluHoM1yVKnE
+
+## Bert Extractive (BertSum)
+
+Paper: https://arxiv.org/abs/1903.10318
+Original Repo: https://github.com/nlpyang/BertSum
+Forked Repo: https://github.com/Santosh-Gupta/BertSum.git
+Colab Notebook: https://colab.research.google.com/drive/1IEHBsryjAjddS0jv7oJOi25_TxjVfA4F
+
+## Transformer, using Tensor2Tensor
+
+Papers: https://arxiv.org/abs/1801.10198 https://arxiv.org/abs/1803.07416
+Recommended Paper: https://arxiv.org/abs/1906.00138
+Original Repo: https://github.com/tensorflow/tensor2tensor
+Forked Repo: 
+Colab Notebook: https://colab.research.google.com/drive/1JEfZ2cCJc8Dz_LQMS9_rGgtMgecfXJDG
+
+If you have any questions about running any of the training, please open an issue and I'll get to it as soon as I can. 
+
+------------------------------------------
 
 If citing this work, this is a preferred citation style:
 
