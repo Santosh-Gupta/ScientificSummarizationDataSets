@@ -136,7 +136,7 @@ Forked Repo:
 
 Colab Notebook: https://colab.research.google.com/drive/1JEfZ2cCJc8Dz_LQMS9_rGgtMgecfXJDG
 
-If you have any questions about running any of the training, please open an issue and I'll get to it as soon as I can. 
+If you have any questions about running any of the training, please open an issue and I'll get to it as soon as I can. I hope people can develop some effective scientific section summarizars. 
 
 ------------------------------------------
 
