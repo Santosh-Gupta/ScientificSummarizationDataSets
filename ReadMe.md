@@ -5,7 +5,7 @@ Update 7-20-19
 
 I have forked several Github repos to set them up to train on the data, and then created accompanying Colab notebook which shows how to use the repos to process and training on the data. For abstractive summarization, I have selected summarization repos which use the Transformers architecture, and the Pointer-Generator architecture. And for extractive summarization, I have selected a Bert-based architecture. They are all listed at the bottom. 
 
-### Motivation
+## Motivation
 
 Most scientific summarization datasets are from the biomedical domain, but I am currently focuced on summarization of CS concepts, so I needed to make new
 datasets for this. I have decided to share the datasets I have made along the way. 
@@ -19,6 +19,9 @@ Thanks to a novel method discovered by Alexios Gidiotis, Grigorios Tsoumakas [ht
 
 
 ------
+
+
+## Datasets 
 
 ### Title Abstracts from the Semantic Scholar Corpus
 
@@ -104,7 +107,9 @@ Update 7-20-19
 
 To save people a few hours on processing the data and setting up the training pipeline, I have forked several Github repos to set them up to train on the data, and then created accompanying Colab notebook which shows how to use the repos to process and training on the data. For abstractive summarization, I have selected summarization repos which use the Transformers architecture, and the Pointer-Generator architecture. And for extractive summarization, I have selected a Bert-based architecture. 
 
-## Pointer Generator 
+## Preprocessing and Training Setup 
+
+### Pointer Generator 
 
 Paper: https://arxiv.org/abs/1704.04368
 
@@ -114,7 +119,7 @@ Forked Repo: https://github.com/Santosh-Gupta/cnn-dailymail
 
 Colab Notebook: https://colab.research.google.com/drive/14-hIiDmUE_qmVK0UHVTjyluHoM1yVKnE
 
-## Bert Extractive (BertSum)
+### Bert Extractive (BertSum)
 
 Paper: https://arxiv.org/abs/1903.10318
 
@@ -124,7 +129,7 @@ Forked Repo: https://github.com/Santosh-Gupta/BertSum.git
 
 Colab Notebook: https://colab.research.google.com/drive/1IEHBsryjAjddS0jv7oJOi25_TxjVfA4F
 
-## Transformer, using Tensor2Tensor
+### Transformer, using Tensor2Tensor
 
 Papers: https://arxiv.org/abs/1801.10198 https://arxiv.org/abs/1803.07416
 
