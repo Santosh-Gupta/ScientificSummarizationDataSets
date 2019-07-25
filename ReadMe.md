@@ -104,6 +104,10 @@ df = pd.read_parquet( file.parquet.gz , engine = 'fastparquet')
 
 ## Preprocessing and Training Setup 
 
+Sometimes preprocessing the data and setting up the training on new summarization data can be tricky. For convenience, I have setup the preproccessing and training for the Pointer-Generator architecture, Bert Extractive (BertSum) architecture, and Transformer architecture using Tensor2Tensor. Each of these needed alterations from the original repos, since the data is formatted differently than the CNN/DailyMail datasets they used. 
+
+The following is a paper for each architecture, original Github repos, my forked versions of those repos, and Colab Notebooks that have the preprocessing/training setup. 
+
 ### Pointer Generator 
 
 Paper: https://arxiv.org/abs/1704.04368
