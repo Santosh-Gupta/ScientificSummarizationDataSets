@@ -1,9 +1,7 @@
 Here are several datasets for Scientific Summarization. All the datasets listed below have all digits and special characters filtered out, since I am more 
 focused on conceptual summarization rather than factual summarization. 
 
-Update 7-20-19
-
-I have forked several Github repos to set them up to train on the data, and then created accompanying Colab notebook which shows how to use the repos to process and training on the data. For abstractive summarization, I have selected summarization repos which use the Transformers architecture, and the Pointer-Generator architecture. And for extractive summarization, I have selected a Bert-based architecture. They are all listed at the bottom. 
+In addition to the datasets, I have set up preprocessing and training setups using a few popular summarization architectures, in Google Colab notebooks. 
 
 ## Motivation
 
