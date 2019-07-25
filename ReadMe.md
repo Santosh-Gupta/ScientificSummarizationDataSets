@@ -21,7 +21,7 @@ Thanks to a novel method discovered by Alexios Gidiotis, Grigorios Tsoumakas [ht
 
 ## Datasets 
 
-### Title Abstracts from the Semantic Scholar Corpus
+### Title/Abstracts from the Semantic Scholar Corpus
 
 This dataset contains title/abstract pairs from the Semantic Scholar Corpus [  https://api.semanticscholar.org/corpus/ ]. I attempted to filter out any papers 
 in the biomedical domain, since title/abstract datasets for the biomedical domain already exists. Though many papers from that domain are still in the dataset, itcontains papers from a variety of fields. 
@@ -36,7 +36,7 @@ This is the sqlite database version, 1 file; it's 2.5 gb zipped, 7.5 gb unzipped
 
 https://drive.google.com/open?id=1IhIaBD98BEseteAUi1S_f_SfIaUI8V4D
 
-### Title Abstracts from ArXiv
+### Title/Abstracts from ArXiv
 
 This dataset contains title/abstract pairs of every paper on ArXiv, from it's start in 1991 to July 5th 2019. The dataset contains ~10k datapoints from 
 quantitive finance, ~26k datapoints from quantitative biology, ~417k datapoints from math, ~1.57 million datapoints from physics, and ~221k datapoints from CS. 
