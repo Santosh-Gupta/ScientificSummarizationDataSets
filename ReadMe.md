@@ -142,7 +142,13 @@ Colab Notebook: https://colab.research.google.com/drive/1JEfZ2cCJc8Dz_LQMS9_rGgt
 
 If you have any questions about running any of the training, please open an issue and I'll get to it as soon as I can. I hope people can develop some effective scientific section summarizars. 
 
-------------------------------------------
+### Heads up
+
+The tokenization steps of the preprocessing produces tokenized files which take up a lot more space than the orignal non-token file. Those files are eventually converted to binary files which take up a lot less space. 
+
+For example, preprocessing 2.3 millin datapoints for BertSum took about 350 GB at the peak.
+
+---------------------------------------------
 
 If citing this work, this is a preferred citation style:
 
