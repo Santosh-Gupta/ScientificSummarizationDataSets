@@ -144,9 +144,9 @@ If you have any questions about running any of the training, please open an issu
 
 ### Heads up
 
-The tokenization steps of the preprocessing produces tokenized files which take up a lot more space than the orignal non-token file. Those files are eventually converted to binary files which take up a lot less space. 
+The tokenization steps of the preprocessing produces tokenized files which take up a lot more space than the orignal non-tokenized files. Those files are eventually converted to binary files which take up a lot less space. 
 
-For example, preprocessing 2.3 millin datapoints for BertSum took about 350 GB at the peak.
+For example, preprocessing ~2.3 millin datapoints for BertSum took about ~340 GB at the peak. The data was eventually converted to binary files which took up ~13 GBs.
 
 ---------------------------------------------
 
