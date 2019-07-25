@@ -101,9 +101,6 @@ df = pd.read_parquet( file.parquet.gz , engine = 'fastparquet')
 
 ------
 
-Update 7-20-19
-
-To save people a few hours on processing the data and setting up the training pipeline, I have forked several Github repos to set them up to train on the data, and then created accompanying Colab notebook which shows how to use the repos to process and training on the data. For abstractive summarization, I have selected summarization repos which use the Transformers architecture, and the Pointer-Generator architecture. And for extractive summarization, I have selected a Bert-based architecture. 
 
 ## Preprocessing and Training Setup 
 
