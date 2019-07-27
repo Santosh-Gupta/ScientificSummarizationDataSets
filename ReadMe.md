@@ -24,7 +24,7 @@ Thanks to a novel method discovered by Alexios Gidiotis, Grigorios Tsoumakas [ht
 ### Title/Abstracts from the Semantic Scholar Corpus
 
 This dataset contains title/abstract pairs from the Semantic Scholar Corpus [  https://api.semanticscholar.org/corpus/ ]. I attempted to filter out any papers 
-in the biomedical domain, since title/abstract datasets for the biomedical domain already exists. Though many papers from that domain are still in the dataset, itcontains papers from a variety of fields. 
+in the biomedical domain, since title/abstract datasets for the biomedical domain already exists. Though many papers from that domain are still in the dataset, it contains papers from a variety of fields. 
 
 The dataset contains 5.8 million datapoints. The dataset is availible in two forms. 
 
