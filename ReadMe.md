@@ -57,7 +57,7 @@ Gidiotis/Tsoumakas paired these sections with their corresponding sections in th
 
 I created two datasets with a similar methodology. The differences in our method are listed below:
 
--Gidiotis/Tsoumakas used 712,911 papers from PubMed Central. I used ~4.3 million papers from the Sematic Scholar corpus in one dataset, and 3944 papers from 
+-Gidiotis/Tsoumakas used 712,911 papers from PubMed Central. I used ~1.1 million papers from the Sematic Scholar corpus in one dataset, and 3944 papers from 
 ArXiv in the other dataset. 
 
 -Gidiotis/Tsoumakas was able to use the tags in the papers' XML to pair the paper sections with the abstract sections. I used AllenAI's Science Parse 
@@ -75,7 +75,7 @@ The ArXiv sectional summarization dataset contains 3944 papers and 6229 total da
 
 https://drive.google.com/open?id=1cg_7XMbWYYNOE5DSw2d1oHOCsJkL-InO
 
-The Semantic Scholar sectional summarization dataset contains ~11 million data points from ~4.3 million papers, in gzipped parquet files. It is availible here:
+The Semantic Scholar sectional summarization dataset contains ~2.3 million data points from ~1.1 million papers, in gzipped parquet files. It is availible here:
 
 https://drive.google.com/open?id=1AH3HEDDs08e-xVRLjAev7K902R0eBrcl
 
