@@ -148,6 +148,10 @@ The tokenization steps of the preprocessing produces tokenized files which take 
 
 For example, preprocessing ~2.3 millin datapoints for BertSum took about ~340 GB at the peak. The data was eventually converted to binary files which took up ~13 GBs.
 
+### Want to be involved?
+
+I am very open to collaborations. Feel free to send me an email at Research2Vec@gmail.com
+
 ---------------------------------------------
 
 If citing this work, this is a preferred citation style:
