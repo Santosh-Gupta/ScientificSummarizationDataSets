@@ -106,7 +106,7 @@ df = pd.read_parquet( file.parquet.gz , engine = 'fastparquet')
 
 Sometimes preprocessing the data and setting up the training on new summarization data can be tricky. For convenience, I have setup the preproccessing and training for the Pointer-Generator architecture, Bert Extractive (BertSum) architecture, and Transformer architecture using Tensor2Tensor. Each of these needed alterations from the original repos, since the data is formatted differently than the CNN/DailyMail datasets they used. 
 
-In addition, the BertSum repo has been altered to use SciBert [ https://github.com/allenai/scibert ] as it's starting weights. 
+In addition, the forked BertSum repo has been altered to use SciBert [ https://github.com/allenai/scibert ] as it's starting weights. Allen AI's SciBert has been trained on 1.14 million research papers (18% in the computer science domain, 82% in the biomedical domain), so I felt it is the best set of starting weights for this project. The forked repo has added possible args for new configuration files, pretrained models, and vocab files in order to use the SciBert pretrained weight. These args can also be used for any set of pretrained weights, vocabs, and configurations. At this time, I would also like to give a shoutout to the BioBert pre-trained model [ https://github.com/dmis-lab/biobert ], which I had the pleasure of working with in my previous project. 
 
 The following is a paper for each architecture, original Github repos, my forked versions of those repos, and Colab Notebooks that have the preprocessing/training setup. 
 
