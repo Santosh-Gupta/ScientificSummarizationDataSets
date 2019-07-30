@@ -120,7 +120,7 @@ Forked Repo: https://github.com/Santosh-Gupta/cnn-dailymail
 
 Colab Notebook: https://colab.research.google.com/drive/14-hIiDmUE_qmVK0UHVTjyluHoM1yVKnE
 
-### Bert Extractive (BertSum)
+### Bert Extractive, using BertSum / SciBert
 
 Paper: https://arxiv.org/abs/1903.10318
 
@@ -130,7 +130,7 @@ Forked Repo: https://github.com/Santosh-Gupta/BertSum.git
 
 Colab Notebook: https://colab.research.google.com/drive/1IEHBsryjAjddS0jv7oJOi25_TxjVfA4F
 
-### Transformer, using Tensor2Tensor
+### Transformer Abstractive, using Tensor2Tensor
 
 Papers: https://arxiv.org/abs/1801.10198 https://arxiv.org/abs/1803.07416
 
