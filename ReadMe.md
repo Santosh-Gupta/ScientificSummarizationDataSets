@@ -3,6 +3,9 @@ focused on conceptual summarization rather than factual summarization.
 
 In addition to the datasets, I have set up preprocessing and training setups using a few popular summarization architectures, in Google Colab notebooks. 
 
+UPDATE 10-17-19. I have released a checkpoint for the BertSum mode. Please see the BerSum section below. 
+
+
 ## Motivation
 
 Most scientific summarization datasets are from the biomedical domain, but I am currently focuced on summarization of CS concepts, so I needed to make new
@@ -130,6 +133,12 @@ Forked Repo: https://github.com/Santosh-Gupta/BertSum.git
 
 Colab Notebook: https://colab.research.google.com/drive/1IEHBsryjAjddS0jv7oJOi25_TxjVfA4F
 
+UPDATE 10-17-19. I have released a checkpoint for the BertSum mode. 
+
+CheckPoint at 30,000 training steps: https://drive.google.com/open?id=1-3ftVOOM5HnmX85CztQ8TBWdMOr1WDQp
+To use, set the `-train_from` arg to the checkpoint. 
+
+
 ### Transformer Abstractive, using Tensor2Tensor
 
 Papers: https://arxiv.org/abs/1801.10198 https://arxiv.org/abs/1803.07416
@@ -150,7 +159,21 @@ The tokenization steps of the preprocessing produces tokenized files which take 
 
 For example, preprocessing ~2.3 millin datapoints for BertSum took about ~340 GB at the peak. The data was eventually converted to binary files which took up ~13 GBs.
 
-### Want to be involved?
+## Released Model
+
+For BertSum, I have released a model, which has been trained for 30,000 steps on this training data. The Google Drive link is below. 
+
+https://drive.google.com/open?id=1-3ftVOOM5HnmX85CztQ8TBWdMOr1WDQp
+
+To use, set the `-train_from` arg to the checkpoint in either the original BertSum code,
+
+https://github.com/nlpyang/BertSum
+
+Or using my fork. 
+
+https://github.com/Santosh-Gupta/BertSum
+
+## Want to be involved?
 
 I am very open to collaborations. Feel free to send me an email at Research2Vec@gmail.com
 
