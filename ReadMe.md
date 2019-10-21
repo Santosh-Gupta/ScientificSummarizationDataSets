@@ -3,8 +3,9 @@ focused on conceptual summarization rather than factual summarization.
 
 In addition to the datasets, I have set up preprocessing and training setups using a few popular summarization architectures, in Google Colab notebooks. 
 
-UPDATE 10-17-19. I have released a checkpoint for the BertSum mode. Please see the BerSum section below. 
+## UPDATE 10-17-19. BertSum model released. 
 
+I have released a checkpoint for the BertSum mode. The model was trained on a batch size of 1024 for 5000 steps, and then a batch size of 4096 for 25000 steps. Please see the BerSum section below. 
 
 ## Motivation
 
@@ -161,7 +162,7 @@ For example, preprocessing ~2.3 millin datapoints for BertSum took about ~340 GB
 
 ## Released Model
 
-For BertSum, I have released a model, which has been trained for 30,000 steps on this training data. The Google Drive link is below. 
+For BertSum, I have released a model, which has been trained for 30,000 steps on this training data. The first 5000 steps were trained on a batch size of 1024, and the rest were trained on a batch size of 4096. The Google Drive link is below. 
 
 https://drive.google.com/open?id=1-3ftVOOM5HnmX85CztQ8TBWdMOr1WDQp
 
