@@ -174,6 +174,9 @@ Or using my fork.
 
 https://github.com/Santosh-Gupta/BertSum
 
+If it helps, this is the Colab notebook I used to train over the data
+https://colab.research.google.com/drive/1Ujdqe2o7gBHfz1q0iNEIhQMZMLM2qi_b
+
 ## Want to be involved?
 
 I am very open to collaborations. Feel free to send me an email at Research2Vec@gmail.com
